@@ -33,9 +33,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Pain is temporary; it will come and go. What truly matters is your resilience in overcoming it. Keep fighting, and you'll emerge stronger on the other side!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Sloka</footer>
         </blockquote>
       </Card.Body>
     </Card>
