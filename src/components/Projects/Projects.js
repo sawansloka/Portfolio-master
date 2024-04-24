@@ -7,6 +7,7 @@ import crud from "../../Assets/Projects/crud.png";
 import smartClass from "../../Assets/Projects/smartClass.png"
 import commentSystem from "../../Assets/Projects/comment-system.png";
 import pokedex from "../../Assets/Projects/pokdex.jpg"
+import reconciliation from "../../Assets/Projects/reconciliation.png";
 
 function Projects() {
   return (
@@ -20,6 +21,15 @@ function Projects() {
           Here are a few projects I've worked on
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reconciliation}
+              isBlog={false}
+              title="Identity-Reconciliation"
+              description="In real-life problem-solving, I developed a system to intelligently link orders with varied contact information to the same customer, streamlining identity reconciliation across multiple purchases for enhanced customer relationship management."
+              ghLink="https://github.com/sawansloka/Identity-Reconciliation"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={smartClass}
