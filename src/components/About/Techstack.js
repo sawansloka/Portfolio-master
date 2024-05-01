@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiPostgresql
 } from "react-icons/di";
 import {
   SiRedis,
@@ -20,7 +21,7 @@ import {
   SiCss3,
 } from "react-icons/si";
 import { GrTest } from "react-icons/gr"; // Jest icon
-import { SiNestjs } from "react-icons/si"; 
+import { SiNestjs } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -39,6 +40,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
