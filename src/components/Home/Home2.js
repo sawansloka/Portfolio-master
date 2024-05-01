@@ -27,15 +27,15 @@ function Home2() {
               </i>
               <br />
               <br />
-              I'm passionate about developing innovative 
+              I'm passionate about developing innovative
               <i>
                 <b className="purple"> Web Technologies</b>{" "}
               </i> {" "}
               with a keen interest in solving problem statement{" "}
-                {/* <b className="purple">
+              {/* <b className="purple">
                   Blockchain.
                 </b> */}
-              
+
               <br />
               <br />
               As a Backend Developer at  <i><b className="purple">
@@ -55,6 +55,12 @@ function Home2() {
                 <b className="purple">
                   {" "}
                   MongoDB
+                </b>
+              </i>,
+              <i>
+                <b className="purple">
+                  {" "}
+                  PostgreSQL
                 </b>
               </i>
               &nbsp; ,
