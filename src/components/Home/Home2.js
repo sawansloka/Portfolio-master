@@ -38,7 +38,7 @@ function Home2() {
 
               <br />
               <br />
-              As a Backend Developer at  <i><b className="purple">
+              As a Former Backend Developer at  <i><b className="purple">
                 PhysicsWallah</b></i> , I specialize in Tech Stack :
               <i>
                 <b className="purple"> Javascript</b>
