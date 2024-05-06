@@ -11,12 +11,12 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sloka Sawan </span>
             from <span className="purple"> Bihar, India</span>
             <br />
-            I am currently employed as a software developer at PhysicsWallah
+            I was previously employed as a software developer at PhysicsWallah
             <br />
             I have completed <span className="purple">Bachelor of Technology (B.Tech)</span> in
             <br /><span className="purple">Industrial and Production Engineering</span> at
             <br /><span className="purple">Dr. B. R. Ambedkar National Institute of Technology, Jalandhar</span>
-            <br/>
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

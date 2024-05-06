@@ -23,7 +23,7 @@ function Experience() {
                             imgPath={pwLogo}
                             title="PhysicsWallah"
                             role="Backend Developer"
-                            date="June 2023 - Present"
+                            date="June 2023 - May 2023"
                             description={
                                 <>
                                     <ul>
