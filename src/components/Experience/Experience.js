@@ -22,8 +22,8 @@ function Experience() {
                         <ExperienceCard
                             imgPath={pwLogo}
                             title="PhysicsWallah"
-                            role="Backend Developer"
-                            date="June 2023 - May 2023"
+                            role="Software Developer"
+                            date="June 2023 - May 2024"
                             description={
                                 <>
                                     <ul>
