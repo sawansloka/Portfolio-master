@@ -21,7 +21,16 @@ function Projects() {
           Here are a few projects I've worked on
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reconciliation}
+              isBlog={false}
+              title="AuthPlus"
+              description="Robust authentication with JWT tokens, flexible role-based access control, and efficient user management. Follows RESTful principles, with meticulous error handling. Scalable architecture, powered by secure MongoDB storage. Comprehensive documentation supports seamless integration."
+              ghLink="https://github.com/sawansloka/Enhanced-Authentication-API"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reconciliation}
               isBlog={false}
@@ -56,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="Pokédex"
               description="A portal to see the characters of Pokemon and their Strength like Height, Weight, Defense, Hp, Species, Type, Attack with Id’s present in every character card pokedex is built by feching a data from Pokemon API."
-              ghLink="https://github.com/sawansloka/Pokedex"           
+              ghLink="https://github.com/sawansloka/Pokedex"
             />
           </Col>
 
