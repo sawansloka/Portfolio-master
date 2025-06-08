@@ -1,0 +1,54 @@
+.tech-icons {
+    text-align: center;
+  }
+  
+  .icon-wrapper {
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;  /* Bigger icon */
+    color: white;       /* White icons */
+    cursor: pointer;
+  }
+  
+  /* Tooltip box hidden by default */
+  .icon-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    max-width: 180px;
+    background-color: rgba(87, 7, 101, 0.85); /* black background */
+    color: rgb(249, 247, 247);
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.1rem;
+    font-weight: 600;
+    pointer-events: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  /* Arrow below tooltip */
+  .icon-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* at the bottom of tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.85) transparent transparent transparent;
+  }
+  
+  /* Show tooltip on hover */
+  .icon-wrapper:hover .icon-tooltip {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  

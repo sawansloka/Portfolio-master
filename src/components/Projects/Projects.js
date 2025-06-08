@@ -8,6 +8,7 @@ import smartClass from "../../Assets/Projects/smartClass.png"
 import commentSystem from "../../Assets/Projects/comment-system.png";
 import pokedex from "../../Assets/Projects/pokdex.jpg"
 import reconciliation from "../../Assets/Projects/reconciliation.png";
+import arogyam from "../../Assets/Projects/arogyamHome.png"
 
 function Projects() {
   return (
@@ -21,6 +22,15 @@ function Projects() {
           Here are a few projects I've worked on
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={arogyam}
+              isBlog={false}
+              title="Arogyam-Clinic"
+              description="A comprehensive website and advanced admin panel for homeopathy clinics, managing the entire patient journey from online booking and payment processing to detailed diagnosis records and prescription generation."
+              ghLink="https://github.com/sawansloka/Arogyam"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={reconciliation}

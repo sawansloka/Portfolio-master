@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import maddieLogo from "../../Assets/Experiences/madiee_logo.png";
 import pwLogo from "../../Assets/Experiences/pw_logo.png"
 import buzzleLogo from "../../Assets/Experiences/buzzleLogo.png";
+import nlsnLogo from "../../Assets/Experiences/nielsen_new_logo.png";
 
 function Experience() {
     return (
@@ -18,6 +19,26 @@ function Experience() {
                     Experiences gained so far
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                    <Col md={4} className="project-card">
+                        <ExperienceCard
+                            imgPath={nlsnLogo}
+                            title="NIELSEN"
+                            role="Member Of Technical Staff"
+                            date="June 2024 - Ongoing"
+                            description={
+                                <>
+                                    <ul>
+                                        <li>Delivering 24/7 weekly on-call support, resolving 10+ Sev-1 issues (e.g., Atlanta time-shift, partition key errors),ensuring 100% SLA compliance with zero client delivery delays.</li>
+                                        <li>Migrated 3+ legacy dashboards and maintained end-to-end workflow involving Oracle DB, Informatica, and multipleserver jobs (like db2db sync job, extract file, load file), improving monitoring coverage by 40%</li>
+                                        <li>Revamped core workflows using async logic, reducing process time by 30% and enhancing scalability across markets</li>
+                                        <li>Resolved critical security flaw by patching leaked Oracle DB credentials, ensuring compliance and securing 100k+ entries.</li>
+                                        <li>Added NY Hispanic demographic column to auto-generated PDFs, extending analytics for 20M+ users.</li>
+                                    </ul>
+                                    <p>Technologies: Java, Spring Boot, Maven, Gradle, Apache Tomcat, Oracle DB, SQL, DBVisualizer, SenchaExt JS, Informatica, WinSCP</p>
+                                </>
+                            }
+                        />
+                    </Col>
                     <Col md={4} className="project-card">
                         <ExperienceCard
                             imgPath={pwLogo}

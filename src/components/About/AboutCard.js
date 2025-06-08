@@ -8,32 +8,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sloka Sawan </span>
-            from <span className="purple"> Bihar, India</span>
-            <br />
-            I was previously employed as a software developer at PhysicsWallah
-            <br />
-            I have completed <span className="purple">Bachelor of Technology (B.Tech)</span> in
-            <br /><span className="purple">Industrial and Production Engineering</span> at
-            <br /><span className="purple">Dr. B. R. Ambedkar National Institute of Technology, Jalandhar</span>
+            Hi Everyone! I'm <span className="purple">Sloka Sawan</span> from{" "}
+            <span className="purple">Bihar, India</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Currently, I work as a <span className="purple">Software Engineer at Nielsen</span>, where I specialize in backend development and system integration.
+            Previously, I contributed to building scalable backend systems at{" "}
+            <span className="purple">PhysicsWallah</span>.
+            <br />
+            <br />
+            I hold a{" "}
+            <span className="purple">B.Tech in Industrial and Production Engineering</span> from{" "}
+            <span className="purple">Dr. B. R. Ambedkar National Institute of Technology (NIT) Jalandhar</span>, class of 2023.
+            <br />
+            <br />
+            I'm passionate about clean architecture, scalable systems, and solving real-world problems through code. I’ve also worked on freelance projects that enhanced my adaptability and exposure to diverse technologies.
+            <br />
+            <br />
+            Outside of work, here are a few things I love doing:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Gym Hitting
+              <ImPointRight /> Hitting the gym
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Chess
+              <ImPointRight /> Playing chess
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Exploring new places
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Pain is temporary; it will come and go. What truly matters is your resilience in overcoming it. Keep fighting, and you'll emerge stronger on the other side!"{" "}
+          <p style={{ color: "rgb(155 126 172)", marginTop: "1rem" }}>
+            "Pain is temporary; it will come and go. What truly matters is your resilience in overcoming it. Keep fighting, and you'll emerge stronger on the other side!"
           </p>
           <footer className="blockquote-footer">Sloka</footer>
         </blockquote>

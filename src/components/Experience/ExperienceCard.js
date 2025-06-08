@@ -8,6 +8,9 @@ import "./Experience.css";
 function ExperienceCard(props) {
     let titleBackgroundClass = "";
     switch (props.title) {
+        case "NIELSEN":
+            titleBackgroundClass = "black-background";
+            break;
         case "PhysicsWallah":
             titleBackgroundClass = "black-background";
             break;
@@ -31,7 +34,7 @@ function ExperienceCard(props) {
             </div>
             <Card.Body>
                 <br />
-                <br/>
+                <br />
                 <Card.Text style={{ textAlign: "center" }}>
                     <h4 style={{ margin: "auto", textAlign: "center" }}>{props.role}</h4>
                 </Card.Text>

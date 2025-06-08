@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Images/myProfilePic.png";
 import Tilt from "react-parallax-tilt";
+import "../../App.css";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -29,70 +30,35 @@ function Home2() {
               <br />
               I'm passionate about developing innovative
               <i>
-                <b className="purple"> Web Technologies</b>{" "}
-              </i> {" "}
-              with a keen interest in solving problem statement{" "}
-              {/* <b className="purple">
-                  Blockchain.
-                </b> */}
-
+                <b className="purple"> Web Technologies</b>
+              </i>{" "}
+              with a keen interest in solving problem statements.
               <br />
               <br />
-              As a Former Backend Developer at  <i><b className="purple">
-                PhysicsWallah</b></i> , I specialize in Tech Stack :
+              As a Former Backend Developer at{" "}
               <i>
-                <b className="purple"> Javascript</b>
+                <b className="purple">PhysicsWallah</b>
               </i>
-              &nbsp; ,
+              , I specialized in:
+              <i>
+                <b className="purple"> Javascript, TypeScript, MongoDB, PostgreSQL, Redis, SQL, Apache Kafka, Jest, and Microservices</b>
+              </i>
+              .
+              <br />
+              <br />
+              Currently, I am working at{" "}
+              <i>
+                <b className="purple">Nielsen</b>
+              </i>{" "}
+              as a Member of Technical Staff, where I specialize in:
               <i>
                 <b className="purple">
                   {" "}
-                  TypeScript
+                  Java, Spring Boot, Maven, JDK, Apache Tomcat, SQL, Oracle Database,
+                  DBVisualizer, Ext JS, Gradle, winSCP, and Informatica
                 </b>
               </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  MongoDB
-                </b>
-              </i>,
-              <i>
-                <b className="purple">
-                  {" "}
-                  PostgreSQL
-                </b>
-              </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Redis</b>
-              </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  SQL</b>
-              </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Apache Kafka</b>
-              </i>
-              &nbsp; ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Jest</b>
-              </i>
-              &nbsp; and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Microservices</b>
-              </i>
+              .
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -145,4 +111,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

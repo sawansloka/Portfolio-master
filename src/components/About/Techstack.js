@@ -6,65 +6,56 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiPostgresql
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiRedis,
-  SiNextdotjs,
-  SiPostgresql,
   SiApachekafka,
   SiSocketdotio,
   SiHtml5,
   SiCss3,
+  SiNestjs,
+  SiOracle,
+  SiSencha
 } from "react-icons/si";
-import { GrTest } from "react-icons/gr"; // Jest icon
-import { SiNestjs } from "react-icons/si";
+import { GrTest } from "react-icons/gr";
+import { FaJava } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import "./About.css";
 
 function Techstack() {
+  const techs = [
+    { icon: <CgCPlusPlus />, name: "C++" },
+    { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <FaJava />, name: "Java" },
+    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <SiNestjs />, name: "NestJS" },
+    { icon: <BiLogoSpringBoot />, name: "Spring Boot" },
+    { icon: <DiMongodb />, name: "MongoDB" },
+    { icon: <DiPostgresql />, name: "PostgreSQL" },
+    { icon: <SiOracle />, name: "Oracle DB" },
+    { icon: <TbSql />, name: "SQL" },
+    { icon: <SiRedis />, name: "Redis" },
+    { icon: <GrTest />, name: "Jest" },
+    { icon: <SiApachekafka />, name: "Apache Kafka" },
+    { icon: <SiSocketdotio />, name: "Socket.IO" },
+    { icon: <DiReact />, name: "React.js" },
+    { icon: <SiSencha />, name: "Sencha Ext Js" },
+    { icon: <SiHtml5 />, name: "HTML5" },
+    { icon: <SiCss3 />, name: "CSS3" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNestjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <GrTest /> {/* Jest icon */}
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachekafka />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSocketdotio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
-      </Col>
+      {techs.map((tech, idx) => (
+        <Col xs={4} md={2} className="tech-icons" key={idx}>
+          <div className="icon-wrapper">
+            {tech.icon}
+            <div className="icon-tooltip">{tech.name}</div>
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }
