@@ -8,7 +8,7 @@ import smartClass from "../../Assets/Projects/smartClass.png"
 import commentSystem from "../../Assets/Projects/comment-system.png";
 import pokedex from "../../Assets/Projects/pokdex.jpg"
 import reconciliation from "../../Assets/Projects/reconciliation.png";
-import arogyam from "../../Assets/Projects/arogyamHome.png"
+import stockkart from "../../Assets/Projects/stockkart.png"
 
 function Projects() {
   return (
@@ -22,6 +22,15 @@ function Projects() {
           Here are a few projects I've worked on
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stockkart}
+              isBlog={false}
+              title="STOCKKART"
+              description="A Inventory Management System for tracking and managing stock levels in real-time along with automated alerts and reporting and generating GSTR reports."
+              ghLink="https://github.com/Stockkart/inventory-platform"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={arogyam}
