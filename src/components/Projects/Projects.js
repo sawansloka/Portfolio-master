@@ -8,8 +8,8 @@ import smartClass from "../../Assets/Projects/smartClass.png"
 import commentSystem from "../../Assets/Projects/comment-system.png";
 import pokedex from "../../Assets/Projects/pokdex.jpg"
 import reconciliation from "../../Assets/Projects/reconciliation.png";
-import arogyam from "../../Assets/Projects/arogyamHome.png"
-import stockkart from "../../Assets/Projects/stockkart.png"
+import arogyam from "../../Assets/Projects/arogyamHome.png";
+import stockkart from "../../Assets/Projects/stockkart.png";
 
 function Projects() {
   return (
